@@ -1,0 +1,13 @@
+
+1. Linux is a very secured OS compared to other OS like Windows
+2. Linux is Open source, hence it is low cost maintainence OS.
+3. Linux is highly stable, and it is very less prone to system crashes.
+4. Linux runs on most modern Processor(hardware)
+5. Linux systems provides a ease of customisation their product development.
+6. Linux has a wide community of developers Globally, hence the support we get for 
+   Linux is very good when compared to any other OS.
+7. The Linux systems are used in wide variety of applications like
+   Super computers, Smart watches, smart TV, Set-Top-Box, Servers, Infotainment industry, Smart Cars,
+   IoT devices, Routers, Railway Signalling and many more. 
+
+Did you know - NASA also uses Linux in their Space station for better reliability.
