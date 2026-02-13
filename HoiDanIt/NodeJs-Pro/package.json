@@ -1,17 +1,46 @@
 {
   "name": "nodejs-pro",
   "version": "1.0.0",
-  "description": "hoidanit Nodejs-Pro",
+  "description": "nodejs",
   "keywords": [
-    "nodejs",
-    "express",
-    "mongodb"
+    "temp"
   ],
+  "repository": {
+    "type": "git",
+    "url": "temp"
+  },
   "license": "ISC",
   "author": "htritai",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "dist/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "temp",
+    "start": "nodemon",
+    "dev": "nodemon",
+    "start:debug": "nodemon --inspect=9229 -e ts,tsx --exec node -r ts-node/register ./src/app.ts"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "src"
+    ],
+    "ext": "ts",
+    "ignore": [
+      "node_modules"
+    ],
+    "exec": "ts-node ./src/app.ts"
+  },
+  "devDependencies": {
+    "@types/ejs": "3.1.5",
+    "@types/express": "5.0.0",
+    "@types/node": "22.10.7",
+    "nodemon": "3.1.9",
+    "ts-node": "10.9.2",
+    "typescript": "5.7.3"
+  },
+  "dependencies": {
+    "dotenv": "16.4.7",
+    "ejs": "3.1.10",
+    "express": "^5.2.1",
+    "mysql2": "3.12.0"
   }
 }
